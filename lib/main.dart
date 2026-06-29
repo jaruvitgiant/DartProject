@@ -4,6 +4,13 @@ import 'ch2/Muli.dart';
 import 'ch2/rowPage.dart';
 import 'ch2/mysample.dart';
 import 'ch2/walletScreen.dart';
+import 'ch2/MyTabBar.dart';
+import 'ch2/MyDrawer.dart';
+import 'ch4/HomeScreen.dart';
+import 'ch4/HomeScreenInput.dart';
+import 'ch5/SimpleProductListScreen.dart';
+import 'ch5/ProductListScreen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -34,7 +41,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const WalletScreen(),
+      home: const ProductListScreen(),
     );
   }
 }
